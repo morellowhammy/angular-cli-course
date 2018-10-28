@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CustomerComponent } from './customer/customer.component';
 import { SearchBoxDirective } from './search-box.directive';
+import { InitCapsPipe } from './shared/init-caps.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
     CustomerComponent,
-    SearchBoxDirective
+    SearchBoxDirective,
+    InitCapsPipe
   ],
   imports: [
     BrowserModule,
