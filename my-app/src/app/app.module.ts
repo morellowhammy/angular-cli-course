@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { CustomerComponent } from './customer/customer.component';
 import { SearchBoxDirective } from './search-box.directive';
 import { InitCapsPipe } from './shared/init-caps.pipe';
+import { LoginModule } from './login/login.module';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { InitCapsPipe } from './shared/init-caps.pipe';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    LoginModule
   ],
   providers: [],
   bootstrap: [AppComponent]
