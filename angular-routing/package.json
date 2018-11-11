@@ -2,6 +2,7 @@
   "name": "angular-routing",
   "version": "0.0.0",
   "scripts": {
+    "stats": "npx webpack-bundle-analyzer dist/angular-routing/stats.json",
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
